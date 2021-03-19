@@ -37,6 +37,7 @@ try {
         to: reciver,
         subject,
         text: body,
+        title: body,
     };
 
     transporter.sendMail(message).then(function(res){
